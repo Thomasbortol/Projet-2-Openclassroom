@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="normalize.css" /> 
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" media="screen and (min-width : 768px) and (max-width : 991px)" href="tablette.css" />     
-        <link rel="stylesheet" media="screen and (max-width : 767px)" href="small_size.css" />
+        <link rel="stylesheet" href="./CSS/normalize.css" /> 
+        <link rel="stylesheet" href="./CSS/style.css" />
+        <link rel="stylesheet" media="screen and (max-width : 767px)" href="./CSS/small_size.css" />
+        <link rel="stylesheet" media="screen and (max-width : 1053px)" href="./CSS/ajust.css" />
+        <link rel="stylesheet" media="screen and (min-width : 768px) and (max-width : 991px)" href="./CSS/tablette.css" />     
+        
         <script src="https://kit.fontawesome.com/58cfcf08e8.js" crossorigin="anonymous"></script>
         
         <title>Booky</title>
@@ -14,7 +16,7 @@
         
     </head>
 
-
+<body>
 
     <header>
         <nav>
@@ -27,11 +29,13 @@
     </header>
     
     
-    <body>
+    
         <section class="section1">
 
             <h1> Trouvez votre hebergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
+
+            <!--Barre de recherche-->
 
             <form method="post" action="#" id="formulaire">
                 <i class="fa-solid fa-location-dot"></i> 
@@ -169,32 +173,32 @@
                 <section class="sectionaside">
 
                     <div class="popchoix">
-                        <a href="#"><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo7" />
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo7" />
                             <div class="descriptif">
                             <h4>Hôtel Le soleil du matin</h4>
                             <p>Nuit à partir de 128€</p>
                                 <div><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i>
-                                </div></a>
+                                </div>
                                 </div>
                                 </div>    
 
                     <div class="popchoix">
-                        <a href="#"><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo8" />
+                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo8" />
                             <div class="descriptif">
                             <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                             <p>Nuit à partir de 71€</p>
                                 <div><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star grey"></i>
-                                </div></a>
+                                </div>
                                 </div>
                                 </div>
 
                     <div class="popchoix">
-                        <a href="#"><img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo9" />
+                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo9" />
                             <div class="descriptif">
                             <h4>Hôtel Tout bleu et blanc</h4>
                             <p>Nuit à partir de 68€</p>
                                 <div><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star blue"></i><i class="fa-solid fa-star grey"></i>
-                                </div></a>
+                                </div>
                                 </div>
                                 </div>
 
@@ -256,22 +260,28 @@
         <footer>
 
             <div class="footpropos">
-                <ul><a href="#">A propos</a></ul>
+                <h5>A propos</h5>
+                <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions générales de vente</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
+                </ul>
             </div>
 
             <div class="footheberge">
-                <ul><a href="#">Nos hébergements</a></ul>
+                <h5>Nos hébergements</h5>
+                <ul>
                     <li><a href="#">Charte de qualité</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
             </div>
 
             <div class="footassist">
-                <ul><a href="#">Assistance</a></ul>
+                <h5>Assistance</h5>
+                <ul>
                     <li><a href="#">Centre d'aide</a></li>
                     <li><a href="#">Nous contacter</a></li>
+                </ul>
             </div>
 
 
@@ -279,6 +289,6 @@
 
 
         </footer>
-
     </body>
+    
 </html>

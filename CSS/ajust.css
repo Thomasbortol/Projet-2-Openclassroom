@@ -1,0 +1,28 @@
+
+.section2{
+    flex-direction: column;
+}
+
+.section2 article{
+    background-color: white;
+    padding: 0 25px 0 25px;
+}
+
+.section2 aside{
+    order: -1;
+    border-radius: 0%;
+    padding-bottom:  40px;
+}
+
+.partie1,.partie2{
+    flex-direction: column;
+}
+
+.hebergechoix{
+    width: auto;
+    object-fit: none;
+}
+
+.hebergechoix img{
+    height: 250px;
+}
