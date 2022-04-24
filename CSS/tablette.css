@@ -1,74 +1,45 @@
-
 /*  Body */
 
 .section1{
     padding: 0 0 20px 20px;
 }
-
 .section2{
     padding: 0 0 20px 0px;
 }
-
 .section3{
     padding: 0 0 20px 0px;
 }
-
 footer{
     padding: 0 0 0 35px;
 }
 
-
-
 /* herbergement et pop */
+
 .section2{
     flex-direction: column;
 }
-
 .section2 article{
     background-color: white;
 }
-
 .section2 aside{
     order: -1;
     border-radius: 0%;
     padding-bottom:  40px;
 }
-
 .partie1,.partie2{
     flex-direction: column;
 }
-
-
 .hebergechoix{
     width: auto;
     object-fit: none;
 }
-
 .hebergechoix img{
     height: 250px;
 }
 
 
 
-/* activité */
-
-.section3 article{
-    flex-direction: column;
-}
-
-.section3 img{
-    height: 250px;
-}
-
-.small1,.small2{
-    margin-bottom: 15px;
-}
 
 
-/* footer      */
-
-footer{
-    flex-direction: column;
-}
 
 

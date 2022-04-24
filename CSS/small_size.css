@@ -1,4 +1,3 @@
-
 /*  Body */
 
 .section1{
@@ -17,20 +16,13 @@ footer{
     padding: 0 0 0 35px;
 }
 
-
-
-
 /* NAV */
-
 
 nav{
     display: flex;
     flex-direction: column;
     align-items:center;
     }
-
-
-
 nav a{
     border-bottom: 3px solid #F2F2F2;
     padding: 40px;
@@ -42,7 +34,6 @@ nav a:hover{
     border-bottom: 3px solid #0065fc;
     border-top: 3px solid transparent;
 }
-
 #anav{
     display: flex;
     align-items: center;
@@ -50,28 +41,22 @@ nav a:hover{
     width: 100%;
     
 }
-
 #logoprincipal{
     margin-left: auto;
 }
 
-
 /* bouton de recherche */
-
 
 .button{
     display: none;
 }
-
 .fa-solid.fa-magnifying-glass{
     display: inline;  
     padding: 12px 0 12px 0;
 }
-
 form button{
     border-radius: 10px 10px 10px 10px;
 }
-
 
 /*barre de filtres */
 
@@ -80,36 +65,27 @@ form button{
     align-items: flex-start;
 }
 
-
-
-
 /* Hebergement et populaires */
-
 
 .section2{
     flex-direction: column;
 }
-
 .section2 article{
     background-color: white;
     padding: 0 25px 0 25px;
 }
-
 .section2 aside{
     order: -1;
     border-radius: 0%;
     padding-bottom:  40px;
 }
-
 .partie1,.partie2{
     flex-direction: column;
 }
-
 .hebergechoix{
     width: auto;
     object-fit: none;
 }
-
 .hebergechoix img{
     height: 250px;
 }
@@ -119,20 +95,15 @@ form button{
 .section3 article{
     flex-direction: column;
 }
-
 .section3 img{
     height: 250px;
 }
-
 .small1,.small2{
     margin-bottom: 15px;
 }
-
 .activitelarge,.activitesmall{
     padding: 0 25px 0 25px;
 }
-
-
 
 /* footer      */
 
